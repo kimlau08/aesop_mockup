@@ -1,0 +1,71 @@
+/**************Styling for Main Carousel*************/
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+a.active {
+  color: white;
+  font-size: 32px;
+}
+a {
+  color: grey;
+}
+
+.menu {
+  background-color: lightsalmon;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+
+/**************Styling for Page3*************/
+
+.page3Container {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+
+/* border: solid red; */
+}
+
+  .row1, .row2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: space-between;
+  }
+
+    .leftIntro, .leftDesc {
+      width: 40%;
+      margin-left: 20px;
+    }
+      .giftListIntro {
+        font-size: 32px;
+      }
+      .giftList {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .bodyLine {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .usageLine {
+        font-size: 32px;
+      }
+      .benefitLine {
+        font-size: 24px;
+      }
+
+    .rightImg {
+      width: 40%;
+    }
