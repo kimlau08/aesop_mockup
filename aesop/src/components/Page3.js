@@ -1,9 +1,80 @@
-import React from 'react';
+import React, { Component } from 'react';
+import odysseyImg from '../assets/odyssey.PNG'
 
-export default function Page3 () {
-    return (
-        <React.Fragment>
-            <h1 style={{color:'blue'}}>Welcome to the Page3</h1>
-        </React.Fragment>
-    )
+import product1Img from '../assets/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png';
+import product2Img from '../assets/daily_products/Aesop-Body-Redemption-Body-Scrub-180mL-large.png';
+import product3Img from '../assets/daily_products/Aesop-Body-Body-Cleansing-Slab-310g-Carton-Large-1584x962px.png';
+import product4Img from '../assets/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png';
+import product5Img from '../assets/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png';
+
+
+
+export default class Page3 extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state={
+            productImgs: [
+                {   image: product1Img, 
+                    name: 'Reverence Aromatique Hand Wash',
+                    desc: 'Woody, earthy, smoky, aroma'
+                },
+                {   image: product2Img, 
+                    name: 'Redemption Body Scrub',
+                    desc: 'Bamboo Stem and  Pumice, to polish skin'
+                },
+                {   image: product3Img,
+                    name: 'Body Cleansing Scrub',
+                    desc: 'Enriched with Bergamot Rind, Tahitian'
+                },
+                {   image: product4Img,
+                    name: 'Geranium Leaf Body Scrub',
+                    desc: 'Geranium leaf gentle to the body'
+                },
+                {   image: product5Img,
+                    name:  'Rose Body Cleanser',
+                    desc: 'Rose never goes out of style'
+                }],
+
+            currentProductIdx: 0
+        }
+    }
+
+    render () {
+        return (
+            <div className="page3Container">
+
+
+                <div className="row1">
+                    <div className="leftIntro">
+                        <p className='giftListIntro'>An odyssey of gifts, for generous and inspired giving</p>
+                        <ul className="giftList">
+                            <li>Seasonal Gift Kits</li>
+                            <li>Aesop favourites</li>
+                            <li>Small gestures</li>
+                            <li>Generous offerings</li>
+                            <li>Fragrant formulations</li>
+                            <li>Treats for self</li>
+                            <li>All gifts</li>
+                        </ul>
+                    </div>
+                    <img className="rightImg" src={odysseyImg}></img>
+                </div>
+
+
+                <div className="row2">
+                    <div className="leftDesc">
+                        <p className="bodyLine">For hands and body</p>
+                        <p className="usageLine">Daily cleansing</p>
+                        <p className="benefitLine">Ensure impeccable hygiene with our range of mild yet efficacious formulations</p>
+                    </div>
+
+                    <div className="odysseyCarouselBox">
+    
+                    </div>
+                </div>
+            </div>
+        )
+
+    }
 }
