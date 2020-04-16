@@ -78,9 +78,7 @@ a {
 
 
 /**************Styling for Page4*************/
-.pageFourContainer{
-  font-size: 0;
-}
+
 .pageFourCarousel{
   position: relative;
   display: inline-block;
@@ -92,12 +90,46 @@ a {
 .pageFourImg{
   width:250px;
   height: 250px;
+
 }
 
 .parsleyHeadingOne{
   text-align: center;
+  
 }
 
-divider{
-  color: red
+.skinCare{
+  border-style: none;
+  background-color: rgb(219, 200, 175);
+  float: left;
+  margin-top: 230px;
+}
+
+
+
+hr{
+  color: black;
+}
+
+.pageFourImg2{
+  width:250px;
+  height: 250px;
+  margin:2%;
+}
+
+li{
+  list-style: none;
+  text-align: center;
+}
+
+.Discover, .poem{
+ text-align: center;
+}
+
+.poemArthur{
+  text-align: center;
+}
+
+.lists{
+  margin-left: 15px;
 }
