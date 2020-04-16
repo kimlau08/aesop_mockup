@@ -14,6 +14,7 @@ import Page3 from './components/Page3';
 import Page4 from './components/Page4';
 
 
+
 //main page nav 
 const Home = () => (
   <div style={{ width: '100%'}}>
@@ -77,7 +78,7 @@ const Carousel = () => {
 export default class App extends Component {
   render() {
     return (
-    <div>
+    <div className="App">
       <Router>
         <Switch>
           <Route path="*" component={Carousel} />
@@ -89,6 +90,10 @@ export default class App extends Component {
               <Link exact to="/Spaces">Spaces</Link>
           </div>
       </Router>
+      <Page1 />
+      <Page2 />
+      <Page3 />
+      <Page4 />
     </div>
   );
   }
