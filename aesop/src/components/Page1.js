@@ -64,5 +64,5 @@ class Page1 extends Component {
     }
 }
 
->>>>>>> second-page-jiaxi
+
 export default Page1;
