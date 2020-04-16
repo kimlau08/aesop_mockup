@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-import ParsleySerum from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/ParsleySerum.png'
+import ParsleyCleanser from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/ParsleyCleanser.png'
+import MandarinFacial from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/MandarinFacial.png'
+import FaceOil from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/FaceOil.png'
+import TeaToner from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/TeaToner.png'
 
 export default class Page4 extends Component {
     
@@ -15,13 +18,14 @@ export default class Page4 extends Component {
                     <p>Healthy skin is the product of careful cleansing, nourishing hydration and protection against environmental factors.</p>
                 </div>
                 <div className="pageFourCarousel">
-                    {<img className="pageFourImg" src={ParsleySerum} alt="parsely serum"/> }
-                    <p className="parsleyHeadingOne">Parsely Seed Anti-Oxidant Serum</p>
-                    <p className="parsleyHeadingOne">Perfect for use in humid climates</p>
-                  
+                    {<img className="pageFourImg" src={MandarinFacial} alt="Mandarian Facial Cream"/> }
+                    {<img className="pageFourImg" src={FaceOil} alt="Mandarian Facial Cream"/> }
+                    {<img className="pageFourImg" src={ParsleyCleanser} alt="parsely serum"/> }
+                    {<img className="pageFourImg" src={TeaToner} alt="parsely serum"/> }
                 </div>
-
-                
+               <divider orientation ="horizontal"></divider>
+                    
+            
                 
             </div>
         )
