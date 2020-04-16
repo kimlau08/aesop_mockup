@@ -14,7 +14,11 @@ import Page3 from './components/Page3';
 import Page4 from './components/Page4';
 
 
-//main page nav 
+//React-router-carousel credit: npmjs.com react-router-carousel 
+//https://www.npmjs.com/package/react-router-carousel  
+
+
+//nav using image links on main page
 const Home = () => (
   <div style={{ width: '100%'}}>
     <Link to="/Page1" activeClassName="active">
