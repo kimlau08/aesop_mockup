@@ -3,28 +3,54 @@ import ParsleyCleanser from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aeso
 import MandarinFacial from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/MandarinFacial.png'
 import FaceOil from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/FaceOil.png'
 import TeaToner from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/TeaToner.png'
+import HandWash from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/staple_products/HandWash.png'
 
 export default class Page4 extends Component {
     
     
     render() {
         return (
-            <div className="pageFourContainer">
+            <div className="pageFourContainer" >
                 <div className="pageFourLeftText">
+                {/* Needed a way to create dividers for sections. tag </hr> was the answer */}
+                <hr />
                     <h2>Nurturing formulations</h2>
                     <h3>For all ages, genders, and skin types</h3>
                 </div>
-                <div className="pageFourLeftParagraph">
+                <div className="pageFourLeftParagraph" >
                     <p>Healthy skin is the product of careful cleansing, nourishing hydration and protection against environmental factors.</p>
                 </div>
                 <div className="pageFourCarousel">
                     {<img className="pageFourImg" src={MandarinFacial} alt="Mandarian Facial Cream"/> }
                     {<img className="pageFourImg" src={FaceOil} alt="Mandarian Facial Cream"/> }
-                    {<img className="pageFourImg" src={ParsleyCleanser} alt="parsely serum"/> }
+                    {<img className="pageFourImg" src={ParsleyCleanser}  alt="parsely serum"/> }
                     {<img className="pageFourImg" src={TeaToner} alt="parsely serum"/> }
                 </div>
-               <divider orientation ="horizontal"></divider>
-                    
+                <button className="skinCare">See all Skin Care</button>
+                <hr />
+                <div>
+                    {<img className="pageFourImg2" src={HandWash} align='left' alt='handwash pump' />}
+                <div/>
+                <div className="lists">
+                    <h3 className="Discover">Discover More</h3>
+                    <h4 className="Discover">Kits & duets</h4>
+                    <ul className="footerList">
+                        <li>Travel</li>
+                        <li>Gift Kits</li>
+                        <li>Skin</li>
+                        <li>Hand & body</li>
+                    </ul>
+                   </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                    <h2 className="poem">'And your very flesh shall be a great poem'</h2>
+                    <p className="poemArthur">Walt Whitman</p>
+            
             
                 
             </div>
