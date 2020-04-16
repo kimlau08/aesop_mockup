@@ -1,3 +1,7 @@
+.App{
+  background-color: rgb(219, 200, 175);
+}
+
 /**************Styling for Main Carousel*************/
 
 ul {
@@ -69,3 +73,31 @@ a {
     .rightImg {
       width: 40%;
     }
+
+
+
+
+/**************Styling for Page4*************/
+.pageFourContainer{
+  font-size: 0;
+}
+.pageFourCarousel{
+  position: relative;
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  text-align: center;
+}
+
+.pageFourImg{
+  width:250px;
+  height: 250px;
+}
+
+.parsleyHeadingOne{
+  text-align: center;
+}
+
+divider{
+  color: red
+}
