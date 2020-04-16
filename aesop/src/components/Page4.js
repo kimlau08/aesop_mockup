@@ -43,13 +43,24 @@ export default class Page4 extends Component {
                    </div>
                 </div>
                 <br />
+                  <br />
+                    <br />
+                     <br />
+                      <br />
+                        <br />
+                        <h2 className="poem">'And your very flesh shall be a great poem'</h2>
+                        <p className="poemArthur">Walt Whitman</p>
+                <hr />
+                <div>
+                        <p className="footerP">I would like to receive communications about Aesop products, services, stores, events and matters of cultural interest</p>
+                        <input type='text' placeholder="Email Address"/>
+                </div>
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                    <h2 className="poem">'And your very flesh shall be a great poem'</h2>
-                    <p className="poemArthur">Walt Whitman</p>
+                  <br />
+                    <br />
+                     <br />
+                      <br />
+                        <br />
             
             
                 
