@@ -31,6 +31,31 @@ a {
 
 /**************Styling for Page3*************/
 
+.first-half{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.main-picture{
+  width: 700px;
+}
+
+.bottom-half{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+
+/**************Styling for Page3*************/
+
 .page3Container {
   display: flex;
   flex-direction: column;
