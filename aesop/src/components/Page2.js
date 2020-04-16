@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Picture from '/Users/dmac/Desktop/PerScholas/hw/my_aesop/my_aesop/src/components/images/1.png';
-import Aromatic1 from '/Users/dmac/Desktop/PerScholas/hw/my_aesop/my_aesop/src/components/images/aromatic_signature_products/Aesop-Home-Room-Spray-Istros-100mL-large.png';
-import Aromatic2 from '/Users/dmac/Desktop/PerScholas/hw/my_aesop/my_aesop/src/components/images/aromatic_signature_products/Aesop-Fragrance-Tacit-Eau-de-Parfum-50mL-Large-684x668px.png';
-import Aromatic3 from '/Users/dmac/Desktop/PerScholas/hw/my_aesop/my_aesop/src/components/images/aromatic_signature_products/Aesop-Home-Isabelle-Oil-Burner-Blend-25mL-large.png'
+import Picture from '/Users/dmac/Desktop/PerScholas/hw/aesop_mockup/aesop_mockup/aesop/src/assets/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png';
+import Aromatic1 from '/Users/dmac/Desktop/PerScholas/hw/aesop_mockup/aesop_mockup/aesop/src/assets/aromatic_signature_products/Aesop-Home-Room-Spray-Istros-100mL-large.png';
+import Aromatic2 from '/Users/dmac/Desktop/PerScholas/hw/aesop_mockup/aesop_mockup/aesop/src/assets/aromatic_signature_products/Aesop-Fragrance-Tacit-Eau-de-Parfum-50mL-Large-684x668px.png';
+import Aromatic3 from '/Users/dmac/Desktop/PerScholas/hw/aesop_mockup/aesop_mockup/aesop/src/assets/aromatic_signature_products/Aesop-Home-Isabelle-Oil-Burner-Blend-25mL-large.png'
 
 class Page2 extends Component {
     state = {}
