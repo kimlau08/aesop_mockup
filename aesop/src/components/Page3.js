@@ -7,8 +7,6 @@ import product3Img from '../assets/daily_products/Aesop-Body-Body-Cleansing-Slab
 import product4Img from '../assets/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png';
 import product5Img from '../assets/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png';
 
-//import Carousel from './Carousel';
-
 export default class Page3 extends Component {
     constructor(props) {
         super(props);
@@ -26,18 +24,30 @@ export default class Page3 extends Component {
                 {   image: product3Img,
                     name: 'Body Cleansing Scrub',
                     desc: 'Enriched with Bergamot Rind, Tahitian'
-                },
-                {   image: product4Img,
-                    name: 'Geranium Leaf Body Scrub',
-                    desc: 'Geranium leaf gentle to the body'
-                },
-                {   image: product5Img,
-                    name:  'Rose Body Cleanser',
-                    desc: 'Rose never goes out of style'
+                // },
+                // {   image: product4Img,
+                //     name: 'Geranium Leaf Body Scrub',
+                //     desc: 'Geranium leaf gentle to the body'
+                // },
+                // {   image: product5Img,
+                //     name:  'Rose Body Cleanser',
+                //     desc: 'Rose never goes out of style'
                 }],
 
             currentProductIdx: 0
-        }
+        };
+
+        this.displayProductImgAndInfo=this.displayProductImgAndInfo.bind(this);
+    }
+
+    displayProductImgAndInfo(product) {
+        return (
+            <div className="productCard">
+                <img className="prodImg" src={product.image}  />
+                <p className="prodName">{product.name}</p>
+                <p className="prodDesc">{product.desc}</p>
+            </div>
+        )
     }
 
     render () {
@@ -69,8 +79,14 @@ export default class Page3 extends Component {
                         <p className="benefitLine">Ensure impeccable hygiene with our range of mild yet efficacious formulations</p>
                     </div>
 
-                    <div className="odysseyCarouselBox">
-                        
+                    <div className="odysseyProductBox">
+                        <div>
+                            <ul className="odysseyProductList">
+                                <li>
+                                    { this.state.productImgs.map( this.displayProductImgAndInfo) }
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

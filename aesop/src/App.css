@@ -2,6 +2,9 @@
   background-color: rgb(219, 200, 175);
 }
 
+
+
+
 /**************Styling for Main Carousel*************/
 
 ul {
@@ -87,7 +90,7 @@ a {
 .resurrection{
   text-align: center;
 }
-/**************Styling for Page3*************/
+/**************Styling for Page2*************/
 
 .first-half{
   display: flex;
@@ -160,7 +163,28 @@ a {
       width: 40%;
     }
 
-
+    .odysseyProductBox {
+        width: 55%;
+        height: 450px;
+    }
+      .odysseyProductList {
+        
+        display: table;
+        margin: 15px 0 auto;
+      }
+        .productCard {
+          display: inline-block;
+          width: 30%;
+          height: 400px;
+        }
+          .prodImg {
+            width: 100%;
+            height: 300px;
+          }
+          .prodName {
+            font-weight: bold;
+            font-size: 14px;
+          }
 
 
 /**************Styling for Page4*************/
