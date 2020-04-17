@@ -147,7 +147,15 @@ input{
   
 }
 
-.discoverList, .hairList{
-  /* border: solid 1px red; */
-  /* background-color: orange; */
+.discoverList{
+  border: solid 1px red; 
+  background-color: orange;
 }
+
+.locationName, .address{
+  text-align: center;
+  font-size: smaller;
+  padding: 0px;
+  margin: 0px;
+}
+

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import ParsleyCleanser from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/ParsleyCleanser.png'
-import MandarinFacial from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/MandarinFacial.png'
-import FaceOil from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/FaceOil.png'
-import TeaToner from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/for_all_products/TeaToner.png'
-import HandWash from '/Users/student_m19/Desktop/Homework/Aesop_Ecom/aesop_mockup/aesop/src/assets/staple_products/HandWash.png'
+import ParsleyCleanser from '../assets/for_all_products/ParsleyCleanser.png'
+import MandarinFacial from '../assets/for_all_products/MandarinFacial.png'
+import FaceOil from '../assets/for_all_products/FaceOil.png'
+import TeaToner from '../assets/for_all_products/TeaToner.png'
+import HandWash from '../assets/staple_products/HandWash.png'
 
 export default class Page4 extends Component {
     
@@ -11,6 +11,8 @@ export default class Page4 extends Component {
     render() {
         return (
             <div className="pageFourContainer" >
+                <h3 className="locationName">Aesop Bleacker Street</h3>
+                <p className="address"> 341 Bleacker St, New York, NY, 10064</p>
                     <div className="pageFourLeftText">
                     {/* Needed a way to create dividers for sections. tag </hr> was the answer */}
                     <hr />
