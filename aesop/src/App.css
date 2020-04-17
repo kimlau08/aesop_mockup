@@ -269,3 +269,19 @@ input{
   margin: 0px;
 }
 
+
+
+.border{
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  background-color: black;
+  color: white;
+  padding: 3px;
+
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+}
