@@ -49,7 +49,7 @@ export default class Page4 extends Component {
                         <div className="hairList"> 
                             <h3 className="Discover">Hair Care</h3>
                             <ul className="footerList2">
-                                <li>Cleanse</li>
+                                <li><a href="#">Cleanse</a></li>
                                 <li>Condition</li>
                                 <li>Treat</li>
                                 <li>Groom</li>
