@@ -13,6 +13,8 @@ import Page2 from './components/Page2';
 import Page3 from './components/Page3';
 import Page4 from './components/Page4';
 
+import Footer from './components/Footer'
+
 
 
 //main page nav 
@@ -94,6 +96,7 @@ export default class App extends Component {
       <Page2 />
       <Page3 />
       <Page4 />
+      <Footer />
     </div>
   );
   }
