@@ -85,17 +85,6 @@ export default class App extends Component {
   render() {
     return (
     <div className="App">
-      <Router>
-        <Switch>
-          <Route path="*" component={Carousel} />
-        </Switch>
-          <div className="menu">
-              <Link exact to="/Home">Home-</Link>
-              <Link exact to="/Mythical">Mythical-</Link>
-              <Link exact to="/Odyssey">Odyssey-</Link>
-              <Link exact to="/Spaces">Spaces</Link>
-          </div>
-      </Router>
       <Page1 />
       <Page2 />
       <Page3 />
