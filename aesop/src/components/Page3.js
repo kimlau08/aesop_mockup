@@ -7,7 +7,7 @@ import product3Img from '../assets/daily_products/Aesop-Body-Body-Cleansing-Slab
 import product4Img from '../assets/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png';
 import product5Img from '../assets/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png';
 
-
+//import Carousel from './Carousel';
 
 export default class Page3 extends Component {
     constructor(props) {
@@ -49,13 +49,13 @@ export default class Page3 extends Component {
                     <div className="leftIntro">
                         <p className='giftListIntro'>An odyssey of gifts, for generous and inspired giving</p>
                         <ul className="giftList">
-                            <li>Seasonal Gift Kits</li>
-                            <li>Aesop favourites</li>
-                            <li>Small gestures</li>
-                            <li>Generous offerings</li>
-                            <li>Fragrant formulations</li>
-                            <li>Treats for self</li>
-                            <li>All gifts</li>
+                            <li className="giftLine">Seasonal Gift Kits</li>
+                            <li className="giftLine">Aesop favourites</li>
+                            <li className="giftLine">Small gestures</li>
+                            <li className="giftLine">Generous offerings</li>
+                            <li className="giftLine">Fragrant formulations</li>
+                            <li className="giftLine">Treats for self</li>
+                            <li className="giftLine">All gifts</li>
                         </ul>
                     </div>
                     <img className="rightImg" src={odysseyImg}></img>
@@ -70,7 +70,7 @@ export default class Page3 extends Component {
                     </div>
 
                     <div className="odysseyCarouselBox">
-    
+                        
                     </div>
                 </div>
             </div>
