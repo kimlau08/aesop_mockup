@@ -64,6 +64,7 @@ export default class Page4 extends Component {
                     <div>
                         <p className="footerP">I would like to receive communications about Aesop products, services, stores, events and matters of cultural interest</p>
                         <input type='text' placeholder="Email Address"/>
+                        <button>Submit</button>
                     </div>
                 </div>
             </div>
