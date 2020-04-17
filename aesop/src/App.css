@@ -191,8 +191,6 @@ a {
 
 .pageFourCarousel{
   display: inline-block;
-  position: relative;
-  margin: 0px;
   text-align: center;
 }
 
@@ -225,6 +223,7 @@ hr{
   width:250px;
   height: 250px;
   border: solid 2px blueviolet;
+  margin-right: 15px;
 
 }
 
@@ -250,11 +249,7 @@ input{
 
 .beforeFooter{
   border: solid 1px aqua;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1;
-  
+
 }
 
 .discoverList{
@@ -270,7 +265,6 @@ input{
 }
 
 
-
 .border{
   display:flex;
   justify-content: flex-end;
@@ -278,10 +272,5 @@ input{
   background-color: black;
   color: white;
   padding: 3px;
-
 }
 
-nav{
-  display: flex;
-  flex-direction: column;
-}
