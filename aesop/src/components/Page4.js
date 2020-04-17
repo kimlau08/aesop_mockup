@@ -5,6 +5,8 @@ import FaceOil from '../assets/for_all_products/FaceOil.png'
 import TeaToner from '../assets/for_all_products/TeaToner.png'
 import HandWash from '../assets/staple_products/HandWash.png'
 
+
+
 export default class Page4 extends Component {
     
     

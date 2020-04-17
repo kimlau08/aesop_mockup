@@ -7,8 +7,6 @@ import product3Img from '../assets/daily_products/Aesop-Body-Body-Cleansing-Slab
 import product4Img from '../assets/daily_products/Aesop-Body-Geranium-Leaf-Body-Cleanser-500mL-large.png';
 import product5Img from '../assets/daily_products/Aesop-Body-A-Rose-By-Any-Other-Name-Body-Cleanser-500mL-large.png';
 
-
-
 export default class Page3 extends Component {
     constructor(props) {
         super(props);
@@ -26,18 +24,22 @@ export default class Page3 extends Component {
                 {   image: product3Img,
                     name: 'Body Cleansing Scrub',
                     desc: 'Enriched with Bergamot Rind, Tahitian'
-                },
-                {   image: product4Img,
-                    name: 'Geranium Leaf Body Scrub',
-                    desc: 'Geranium leaf gentle to the body'
-                },
-                {   image: product5Img,
-                    name:  'Rose Body Cleanser',
-                    desc: 'Rose never goes out of style'
                 }],
 
             currentProductIdx: 0
-        }
+        };
+
+        this.displayProductImgAndInfo=this.displayProductImgAndInfo.bind(this);
+    }
+
+    displayProductImgAndInfo(product) {
+        return (
+            <div className="productCard">
+                <img className="prodImg" src={product.image}  />
+                <p className="prodName">{product.name}</p>
+                <p className="prodDesc">{product.desc}</p>
+            </div>
+        )
     }
 
     render () {
@@ -49,13 +51,13 @@ export default class Page3 extends Component {
                     <div className="leftIntro">
                         <p className='giftListIntro'>An odyssey of gifts, for generous and inspired giving</p>
                         <ul className="giftList">
-                            <li>Seasonal Gift Kits</li>
-                            <li>Aesop favourites</li>
-                            <li>Small gestures</li>
-                            <li>Generous offerings</li>
-                            <li>Fragrant formulations</li>
-                            <li>Treats for self</li>
-                            <li>All gifts</li>
+                            <li className="giftLine">Seasonal Gift Kits</li>
+                            <li className="giftLine">Aesop favourites</li>
+                            <li className="giftLine">Small gestures</li>
+                            <li className="giftLine">Generous offerings</li>
+                            <li className="giftLine">Fragrant formulations</li>
+                            <li className="giftLine">Treats for self</li>
+                            <li className="giftLine">All gifts</li>
                         </ul>
                     </div>
                     <img className="rightImg" src={odysseyImg}></img>
@@ -69,8 +71,14 @@ export default class Page3 extends Component {
                         <p className="benefitLine">Ensure impeccable hygiene with our range of mild yet efficacious formulations</p>
                     </div>
 
-                    <div className="odysseyCarouselBox">
-    
+                    <div className="odysseyProductBox">
+                        <div>
+                            <ul className="odysseyProductList">
+                                <li>
+                                    { this.state.productImgs.map( this.displayProductImgAndInfo) }
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
