@@ -24,14 +24,6 @@ export default class Page3 extends Component {
                 {   image: product3Img,
                     name: 'Body Cleansing Scrub',
                     desc: 'Enriched with Bergamot Rind, Tahitian'
-                // },
-                // {   image: product4Img,
-                //     name: 'Geranium Leaf Body Scrub',
-                //     desc: 'Geranium leaf gentle to the body'
-                // },
-                // {   image: product5Img,
-                //     name:  'Rose Body Cleanser',
-                //     desc: 'Rose never goes out of style'
                 }],
 
             currentProductIdx: 0
